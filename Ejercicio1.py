@@ -1,12 +1,12 @@
 def palabras_clave(texto):
-    lista_aux=[]
+    listaaux=[]
     for i in range (2,len(texto),1):
         if texto[i-1]=='#' and texto[i]=='#':
             j=i+1
             while texto[j]!='#':
-                lista_aux.append(texto[j])
+                listaaux.append(texto[j])
             i=j
-    return lista_aux
+    return listaaux
 
 
 
