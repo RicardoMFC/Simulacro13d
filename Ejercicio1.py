@@ -5,7 +5,7 @@ def palabras_clave(texto):
             j=i+1
             while texto[j]!='#':
                 listaaux.append(texto[j])
-            i=j
+                i=j
     return listaaux
 
 
